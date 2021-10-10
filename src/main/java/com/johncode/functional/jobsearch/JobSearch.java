@@ -8,6 +8,5 @@ import static com.johncode.functional.jobsearch.CommanderFunctions.buildCommande
 public class JobSearch {
     public static void main(String[] args) {
         JCommander jCommander = buildCommanderWithName("job-search", CLIArguments::newInstance);
-
     }
 }
